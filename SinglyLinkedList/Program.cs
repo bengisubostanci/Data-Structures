@@ -34,13 +34,7 @@ namespace SinglyLinkedList
             }
             head = last;
 
-            //Print all elements in a Linked list
-            Block bl = head;
-            while (bl != null)
-            {
-                Console.WriteLine(bl.data);
-                bl = bl.next;
-            }
+            
 
             //Insertion Operation
 
